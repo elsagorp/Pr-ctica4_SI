@@ -15,16 +15,16 @@ Para instalar las dependencias que estan en el `package.json`.
 ```
 ## Ejecutar el código
 - Si quieres ejecutar el código actual y no hacerle ningun cambio.
-```
+```ruby
     npm run start
 ```
 - Si quieres ejecutar el código como desarrollador, es decir, este se actualiza, cuando guardemos los cambios del código.
-```
+```ruby
     npm run dev 
 ```
 ## Variables de entorno en un archivo .env
 Tendrás que escribir las variables de entorno pedidas en .env.example. 
-```
+```ruby
 PORT = Puerto 
 MONGO_DATABASE = nombre base de datos
 MONGO_USER = usuario de mongodb
